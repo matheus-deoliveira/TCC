@@ -1,0 +1,9 @@
+Coletando informações dentro do arquivo do Marvin Core
+
+Quais são os tipos de usuários que fazem determinados tipos de funções no Marvin?
+
+Administrator
+Gestor de Departamento
+Gestor de Curso de Graduação
+Gestor de Programa de Pós-graduação
+

@@ -1,0 +1,32 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Albert, Jeong e Barab{\'a}si 1999]{albert1999internet}
+\abntrefinfo{Albert, Jeong e Barab{\'a}si}{ALBERT; JEONG; BARAB{\'A}SI}{1999}
+{ALBERT, R.; JEONG, H.; BARAB{\'A}SI, A.-L. Internet: Diameter of the
+  world-wide web.
+\emph{nature}, Nature Publishing Group, v.~401, n.~6749, p.~130, 1999.}
+
+\bibitem[Dijkstra 1959]{dijkstra1959note}
+\abntrefinfo{Dijkstra}{DIJKSTRA}{1959}
+{DIJKSTRA, E.~W. A note on two problems in connexion with graphs.
+\emph{Numerische mathematik}, Springer, v.~1, n.~1, p. 269--271, 1959.}
+
+\bibitem[Lattes, Occhialini e Powell 1947]{lattes1947observations}
+\abntrefinfo{Lattes, Occhialini e Powell}{LATTES; OCCHIALINI; POWELL}{1947}
+{LATTES, C. M.~G.; OCCHIALINI, G.~P.; POWELL, C.~F. Observations on the tracks
+  of slow mesons in photographic emulsions.
+\emph{Nature}, Nature Publishing Group, v.~160, n.~4067, p.~486, 1947.}
+
+\bibitem[Souza e Mylopoulos 2013]{souza-mylopoulos:spe13}
+\abntrefinfo{Souza e Mylopoulos}{SOUZA; MYLOPOULOS}{2013}
+{SOUZA, V. E.~S.; MYLOPOULOS, J. {Designing an adaptive computer-aided
+  ambulance dispatch system with Zanshin: an experience report}.
+\emph{Software: Practice and Experience (online first:
+  http://dx.doi.org/10.1002/spe.2245)}, Wiley, 2013.}
+
+\end{thebibliography}
