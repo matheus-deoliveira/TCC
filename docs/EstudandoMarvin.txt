@@ -1,0 +1,71 @@
+----------------------------------- 15/05/2025 -----------------------------------
+
+Algumas informações do Marvin UFES:
+
+Roles:
+- SysAdmin
+- Professor
+- Staff
+- Student
+- Visitor
+
+É necessário entender quais são os possíveis itens da barra lateral que podem ser utilizados por cada usuário, de acordo com a sua role específica.
+
+Para desenvolver telas específicas eu preciso saber quais são as telas que serão modificadas e para qual tipo de usuário.
+
+Módulo de Administração:
+
+Cadastrar Acadêmicos
+
+Cadastrar Centros de Ensino
+
+Gerenciar Semestres
+
+Gerenciar Departamentos
+	Cadastrar Departamentos
+	Cadastrar Lotação de Departamento
+	Cadastrar Chefias de Departamento
+	Cadastrar Secretários de Departamento
+	Cadastrar Representações Estudantis de Departamento
+
+Gerenciar Graduação
+	Cadastrar Cursos de Graduação
+	Cadastrar Participações em Colegiado de Curso de Graduação
+	Cadastrar Coordenadores de Curso de Graduação
+	Cadastrar Secretarias de Curso de Graduação
+	Cadastrar Coordenadores de Estágio de Curso de Graduação
+	Cadastrar Matrículas em Curso de Graduação
+	Cadastrar Representações Estudantis de Curso de Graduação
+
+Gerenciar Pós-Graduação
+	Cadastrar Programas de Pós-Graduação
+	Cadastrar Participações em Programa de Pós-Graduação
+	Cadastrar Participações em Colegiado de Programa de Pós-Graduação
+	Cadastrar Coordenações de Programa de Pós-Graduação
+	Cadastrar Secretarias de Programa de Pós-Graduação
+	Gerenciar Cursos de Pós-Graduação
+	Cadastrar Matrículas em Curso de Pós-Graduação
+
+Módulo Plano de Atividade Docente:
+
+Gerenciar Disciplinas
+
+Outros:
+
+Enviar CV Lattes
+Gerar Bibliografia
+
+INFORMAÇÕES TCC:
+
+FUNDAMENTAÇÃO:
+engenharia de software, requisitos, projeto, engenharia web e as tecnologias utilizadas
+
+Na seção 4 dos Requisitos do Marvin Core está as telas que serão feitas, com base nos casos de uso
+
+Com base no método de desenvolvimento do trabalho, tem haver com revisar os códigos
+
+Limitar o escopo para administração
+
+Dentro dos meus objetivos parecem Atividades ***
+
+Entender os requisitos, projetar a resolução e executar (no meu caso não tem)
