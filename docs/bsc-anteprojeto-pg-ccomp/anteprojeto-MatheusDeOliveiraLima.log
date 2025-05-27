@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  13 MAY 2025 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  27 MAY 2025 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1568,8 +1568,8 @@ l.274
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-7.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+8.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1721,14 +1721,14 @@ L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `anteprojeto-MatheusDeOliveiraLima.brf' has n
 ot changed.
-(rerunfilecheck)             Checksum: AA13E159777C8DB79499A325747EFB70;442.
+(rerunfilecheck)             Checksum: 222DFAEB5E8C86F60D17501E483679FF;442.
  ) 
 Here is how much of TeX's memory you used:
- 36531 strings out of 473330
- 650340 string characters out of 5723877
- 1639691 words of memory out of 5000000
+ 36527 strings out of 473330
+ 650298 string characters out of 5723877
+ 1639694 words of memory out of 5000000
  58624 multiletter control sequences out of 15000+600000
- 669866 words of font info for 198 fonts, out of 8000000 for 9000
+ 669678 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,117p,1030b,1599s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1749,7 +1749,7 @@ xlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-d
 ist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
 blic/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.p
 fb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on anteprojeto-MatheusDeOliveiraLima.pdf (14 pages, 1352191 byte
+Output written on anteprojeto-MatheusDeOliveiraLima.pdf (14 pages, 1353219 byte
 s).
 PDF statistics:
  474 PDF objects out of 1000 (max. 8388607)

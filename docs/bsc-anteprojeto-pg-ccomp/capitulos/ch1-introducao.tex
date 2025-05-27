@@ -41,18 +41,6 @@ O \textbf{objetivo geral} é desenvolver interfaces personalizadas no sistema Ma
 
 %Os \textbf{Objetivos Específicos} apresentam os detalhes e/ou desdobramentos do objetivo geral que levam a resultados intermediários e relevantes para alcançar o objetivo geral. Sempre será mais de um objetivo específico, todos iniciando com verbo no infinitivo.
 
-%%% Objetivos Específicos %%%
-Com base no objetivo geral pode-se desdobrar alguns resultados intermediários como:
-\begin{itemize}
-	\item Levantar os diferentes tipos de usuários que utilizam o sistema Marvin e mapear as funções associadas a cada papel.
-	\item Identificar os pontos de dificuldade na navegação atual do sistema para cada perfil de usuário.
-	\item Projetar novas interfaces personalizadas que atendam melhor às necessidades específicas de cada Role.
-	\item Implementar as interfaces no sistema, utilizando boas práticas de desenvolvimento web.
-	\item Testar as novas interfaces com usuários reais para validar a usabilidade e a eficiência das mudanças realizadas.
-	\item Documentar todo o processo de desenvolvimento e as decisões técnicas tomadas ao longo do trabalho.
-\end{itemize}
-
-
 %OsObjetivos Específicos apresentam os detalhes e/ou desdobramento do objetivogeral. Sempre serão mais de um objetivo, todos iniciando com verbo no infinitivo queapresente tarefas parciais de pesquisa em prol da execução do objetivo geral.
 
 
@@ -60,31 +48,53 @@ Com base no objetivo geral pode-se desdobrar alguns resultados intermediários c
 \section{Método de Desenvolvimento do Trabalho}
 \label{sec-intro-met}
 
-Nesta subseção, deve ser apresentado o \textbf{Método de Desenvolvimento} (ou o \textbf{Método de Pesquisa}, quando for o caso) do trabalho. Aqui são apresentados os procedimentos/técnicas que serão usados durante o desenvolvimento do trabalho. 
+%Nesta subseção, deve ser apresentado o \textbf{Método de Desenvolvimento} (ou o \textbf{Método de Pesquisa}, quando for o caso) do trabalho. Aqui são apresentados os procedimentos/técnicas que serão usados durante o desenvolvimento do trabalho. 
+
+O desenvolvimento deste trabalho será feito em etapas, seguindo uma abordagem prática baseada no processo de engenharia de software, com foco em desenvolvimento web. A metodologia utilizada envolve análise dos requisitos, análise dos papéis dos usuários, planejamento das interfaces, implementação e validação.
+
+Inicialmente, será feita uma análise do sistema Marvin, com foco no subsistema administrativo, para entender como os diferentes tipos de usuários (como administradores, gestores de departamento, coordenadores de curso e programas de pós-graduação) interagem com as funcionalidades existentes. A partir disso, serão identificadas as principais funções associadas a cada papel e os pontos em que a interface atual não atende bem às necessidades específicas desses perfis.
+
+Com base nessa análise, serão projetadas novas interfaces personalizadas, utilizando ferramentas modernas de desenvolvimento frontend. A implementação será feita por meio de tecnologias web já utilizadas no projeto Marvin, respeitando a estrutura já existente e buscando garantir compatibilidade com o sistema atual.
+
+Por fim, será realizada uma etapa de testes com usuários reais ou simulações de uso, para avaliar a usabilidade das novas interfaces. A documentação do processo completo, incluindo decisões técnicas e dificuldades encontradas, também fará parte do trabalho final.
 
 %%% Início de seção. %%%
 \section{Cronograma}
 \label{sec-intro-crono}
 
-O \textbf{Cronograma de Execução} apresenta a distribuição no tempo das atividades
-que deverão ser desenvolvidas ao longo do trabalho. As atividades apresentadas no cronograma devem estar alinhadas com os objetivos apresentados na Subseção~\ref{sec-intro-obj}, ou seja, elas devem ser capazes de produzir os resultados necessários para alcançar os objetivos estabelecidos. Deve-se apresentar uma listagem com a descrição de cada uma dessas atividades e em seguida mostrada uma tabela contendo todas as atividades previstas juntamente com a  previsão do período de execução de cada uma.
+O cronograma de execução apresenta a distribuição no tempo das atividades que serão realizadas ao longo do desenvolvimento do trabalho. As atividades foram definidas com base nos objetivos específicos apresentados na Subseção~\ref{sec-intro-obj}, garantindo que cada uma delas contribua diretamente para a obtenção do objetivo geral.
 
-Um exemplo seria:
 \begin{itemize}
-\item Atividade 1: detalhamento ...
-\item Atividade 2: detalhamento ...
-\item ...
+	\item \textbf{Atividade 1: Levantamento de requisitos e análise de papéis do sistema} \\
+	Analisar o sistema Marvin, especialmente o subsistema administrativo, e identificar os diferentes tipos de usuários e suas respectivas funções.
+	
+	\item \textbf{Atividade 2: Avaliação da usabilidade atual} \\
+	Estudar as interfaces existentes no sistema e levantar as principais dificuldades enfrentadas por cada perfil de usuário.
+	
+	\item \textbf{Atividade 3: Projeto das interfaces personalizadas} \\
+	Definir a estrutura, layout e fluxo de navegação das novas interfaces específicas para cada Role.
+	
+	\item \textbf{Atividade 4: Implementação das interfaces - Parte 1} \\
+	Desenvolver e integrar as interfaces personalizadas de 1 ou 2 papéis principais de usuário, como Administrador e Gestor de Curso.
+	
+	\item \textbf{Atividade 5: Implementação das interfaces - Parte 2} \\
+	Finalizar o desenvolvimento das interfaces dos demais papéis e garantir a integração com o sistema existente.
+	
+	\item \textbf{Atividade 6: Testes, validação e documentação} \\
+	Realizar testes com usuários (ou simulações), ajustar problemas encontrados e documentar todo o processo de desenvolvimento.
 \end{itemize}
 
 \begin{table}[h]
-\centering
-\begin{tabular}{c|c|c|c|c|c|c|}
-\cline{2-7}
-\multicolumn{1}{l|}{} & \textbf{(mês)} & \textbf{(mês)} & \textbf{(mês)} & \textbf{(mês)} & \textbf{(mês)} & \textbf{(mês)} \\ \hline
-\multicolumn{1}{|c|}{\textbf{Atividade 1}} & X & X &  &  &  &  \\ \hline
-\multicolumn{1}{|c|}{\textbf{Atividade 2}} &  & X & X &  &  &  \\ \hline
-\multicolumn{1}{|c|}{\textbf{Atividade 3}} &  &  &  & X &  &  \\ \hline
-\multicolumn{1}{|c|}{\textbf{Atividade 4}} &  & X &  & X &  &  \\ \hline
-\multicolumn{1}{|c|}{\textbf{. . .}} &  &  &  &  & X & X \\ \hline
-\end{tabular}
+	\centering
+	\caption{Cronograma de execução das atividades}
+	\begin{tabular}{l|c|c|c|c|c|c|}
+		\cline{2-7}
+		\multicolumn{1}{c|}{} & \textbf{Mês 1} & \textbf{Mês 2} & \textbf{Mês 3} & \textbf{Mês 4} & \textbf{Mês 5} & \textbf{Mês 6} \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 1}} & X & X &  &  &  &  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 2}} &  & X & X &  &  &  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 3}} &  &  & X & X &  &  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 4}} &  &  &  & X &  &  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 5}} &  &  &  &   & X &  \\ \hline
+		\multicolumn{1}{|l|}{\textbf{Atividade 6}} &  &  &  &  &  & X \\ \hline
+	\end{tabular}
 \end{table}
