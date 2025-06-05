@@ -1,17 +1,67 @@
 % ==============================================================================
-% TCC - Nome do Aluno
-% Capítulo 2 - Referencial Teórico
+% TCC - Matheus de Oliveira Lima
+% Capítulo 2 - Fundamentação Teórica e Tecnologias Utilizadas
 % ==============================================================================
+
+
 \chapter{Fundamentação Teórica e Tecnologias Utilizadas}
 \label{sec-fundteo}
 
-A seção de \textbf{Fundamentação Teórica e Tecnologias Utilizadas} deve apresentar
-os aspectos relativos ao conteúdo de disciplinas cursadas, ao conteúdo do material
-bibliográfico consultado e às tecnologias que irão auxiliar o desenvolvimento do trabalho
-em busca de uma solução para o problema abordado. Deve ser apresentada em forma de
-texto, \textbf{entre 8 e 15 páginas}, que demonstre conhecimento básico da literatura técnico-científica sobre o tema abordado.
+A fundamentação teórica deste trabalho aborda conceitos essenciais para o desenvolvimento de interfaces personalizadas em sistemas web, com foco na experiência do usuário (UX) e na adaptação de funcionalidades conforme o papel de cada usuário. Além disso, são apresentadas as principais tecnologias utilizadas no desenvolvimento do Sistema Marvin.
 
-Utilizaremos este capítulo para apresentar alguns exemplos de uso de \latex que podem ser úteis para aqueles que possuem pouca experiência com a ferramenta e vão escrever o Anteprojeto e, futuramente, a monografia usando \latex. Para mais informações sobre \latex, você pode consultar a  \href{https://www.overleaf.com/learn}{documentação do overleaf} ou vários materiais disponíveis online, como  \href{https://www.ime.usp.br/~viviane/MAP2212/minicurso.pdf}{esse minicurso da USP}.
+\section{Experiência do Usuário (UX) e Usabilidade}
+
+A experiência do usuário (UX) refere-se à qualidade da interação do usuário com o sistema, englobando aspectos como facilidade de uso, eficiência e satisfação~\cite{norman2013design}. Interfaces bem projetadas aumentam a produtividade e reduzem erros, especialmente em sistemas complexos como os utilizados em ambientes acadêmicos.
+
+Segundo Nielsen~\cite{nielsen1994usability}, a usabilidade pode ser dividida em cinco atributos: facilidade de aprendizado, eficiência de uso, facilidade de memorização, taxa de erros e satisfação subjetiva. No contexto do Sistema Marvin, a personalização das interfaces visa melhorar esses atributos para diferentes perfis de usuários.
+
+\section{Personalização de Interfaces e Controle de Acesso por Papéis (Role-Based Access Control)}
+
+A personalização de interfaces consiste em adaptar a apresentação e as funcionalidades do sistema conforme o perfil do usuário. O controle de acesso baseado em papéis (RBAC) é uma abordagem comum para gerenciar permissões em sistemas multiusuário~\cite{sandhu1996role}. Cada papel (por exemplo, administrador, gestor, aluno) possui um conjunto específico de permissões e visualizações, tornando o sistema mais seguro e intuitivo.
+
+\section{Engenharia de Software}
+\label{sec-fundteo-engsoft}
+
+A Engenharia de Software é uma área da computação dedicada à especificação, desenvolvimento, manutenção e gerenciamento de sistemas de software de forma sistemática, disciplinada e quantificável~\cite{pressman2016engenharia}. Seu objetivo é garantir a qualidade, confiabilidade e eficiência dos sistemas desenvolvidos, utilizando processos, métodos e ferramentas apropriadas. Entre as principais atividades da engenharia de software estão a definição de requisitos, o projeto de software, a implementação, os testes e a manutenção.
+
+\section{Levantamento de Requisitos}
+\label{sec-fundteo-requisitos}
+
+O levantamento de requisitos é uma das etapas mais críticas do desenvolvimento de software, pois envolve a identificação e documentação das necessidades e expectativas dos usuários e demais stakeholders~\cite{sommerville2011software}. Os requisitos podem ser classificados em funcionais, que descrevem as funcionalidades do sistema, e não funcionais, que tratam de restrições e qualidades, como desempenho, segurança e usabilidade. Uma boa especificação de requisitos é fundamental para o sucesso do projeto, evitando retrabalho e garantindo que o produto final atenda aos objetivos propostos. No contexto do Sistema Marvin, a especificação de requisitos foi detalhada em documento próprio~\cite{requisitos_marvin_core}, servindo de base para o desenvolvimento das funcionalidades e interfaces.
+
+\section{Projeto de Software}
+\label{sec-fundteo-projeto}
+
+O projeto de software consiste na definição da arquitetura, dos componentes e das interfaces do sistema, a partir dos requisitos levantados. Essa etapa busca transformar as necessidades identificadas em uma solução técnica viável, considerando aspectos como modularidade, reutilização, escalabilidade e manutenibilidade~\cite{pressman2016engenharia}. No contexto de sistemas web, o projeto também envolve decisões sobre a experiência do usuário (UX), a navegação, a disposição dos elementos na interface e a integração entre frontend e backend. O projeto do Sistema Marvin foi elaborado considerando as melhores práticas de engenharia de software, com ênfase na modularidade e escalabilidade. O documento de projeto descreve a arquitetura, os componentes principais e as integrações do sistema~\cite{projeto_marvin_core}.
+
+\section{Engenharia Web}
+\label{sec-fundteo-engweb}
+
+A Engenharia Web é um ramo específico da engenharia de software voltado para o desenvolvimento de aplicações baseadas na web. Ela abrange técnicas, metodologias e ferramentas para lidar com os desafios próprios desse ambiente, como a heterogeneidade de plataformas, a necessidade de interfaces responsivas, a segurança e a escalabilidade~\cite{gellersen2002web}. O desenvolvimento web moderno valoriza a experiência do usuário, a acessibilidade e a personalização das interfaces, aspectos essenciais para sistemas utilizados por diferentes perfis de usuários, como no caso do Sistema Marvin.
+
+\section{Tecnologias Utilizadas}
+\label{sec-fundteo-tecnologias}
+
+O desenvolvimento do trabalho utiliza tecnologias amplamente adotadas no contexto de aplicações web. Entre as principais, destacam-se:
+
+\begin{itemize}
+	\item \textbf{HTML5, CSS3 e JavaScript}: Linguagens fundamentais para a construção de interfaces web, permitindo a criação de páginas dinâmicas, responsivas e acessíveis.
+	\item \textbf{Frameworks Frontend (ex: React, Vue.js ou Angular)}: Facilitam a criação de interfaces ricas e componentes reutilizáveis, promovendo maior produtividade e organização do código.
+	\item \textbf{Frameworks Backend (ex: Node.js, Django, Laravel)}: Responsáveis pelo processamento dos dados, regras de negócio e integração com bancos de dados.
+	\item \textbf{APIs REST}: Permitem a comunicação entre o frontend e o backend de forma padronizada e eficiente.
+	\item \textbf{Ferramentas de versionamento (ex: Git)}: Essenciais para o controle de versões do código-fonte e colaboração entre desenvolvedores.
+\end{itemize}
+
+Essas tecnologias foram escolhidas por sua robustez, comunidade ativa e aderência às melhores práticas de desenvolvimento web, além de já serem utilizadas no contexto do Sistema Marvin, facilitando a integração das novas interfaces ao sistema existente.
+
+
+\section{Trabalhos Relacionados}
+
+Diversos estudos destacam a importância da personalização de interfaces em sistemas acadêmicos e administrativos~\cite{albert1999internet, souza-mylopoulos:spe13}. A literatura aponta que a adaptação das interfaces conforme o contexto de uso contribui para a eficiência e satisfação dos usuários.
+
+\section{Considerações Finais}
+
+A fundamentação teórica apresentada embasa as decisões de projeto e implementação das interfaces personalizadas no Sistema Marvin, destacando a importância da usabilidade, da personalização e do uso de tecnologias adequadas para o desenvolvimento web.
 
 
 

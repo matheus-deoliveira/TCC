@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.3.18)  5 JUN 2025 08:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.3.18)  5 JUN 2025 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,54 +1531,58 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 \openout2 = `capitulos/ch2-referencial.aux'.
 
  (./capitulos/ch2-referencial.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-2.
 
-(/app/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
+LaTeX Warning: Citation `norman2013design' on page 5 undefined on input line 14
+.
+
+[5
+
+
+
+
+] [6]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+2.
+ (/app/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5
-
-
-
-
-] [6]
+ [7] [8]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 80.
+nput line 130.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 80--80
+Overfull \hbox (6.0pt too wide) in paragraph at lines 130--130
 [][][][][][][] 
  []
 
 (./codigos/lst-intro-exemplo.tex)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 82.
+(Font)              <10> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 82.
+(Font)              <7> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 82.
-
+(Font)              <5> on input line 132.
+ [9]
 (/app/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 84--84
+Overfull \hbox (6.0pt too wide) in paragraph at lines 134--134
 [][][][][][][] 
  []
 
-(./codigos/lst-intro-outroexemplo.java) [7]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 94--94
+(./codigos/lst-intro-outroexemplo.java)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 144--144
 [][][][][][][] 
  []
 
-(./codigos/lst-intro-figuras.tex)
-<figuras/fig-fundteo-exemplo.png, id=122, 990.70125pt x 1012.78375pt>
+(./codigos/lst-intro-figuras.tex) [10]
+<figuras/fig-fundteo-exemplo.png, id=187, 990.70125pt x 1012.78375pt>
 File: figuras/fig-fundteo-exemplo.png Graphic file (type png)
 <use figuras/fig-fundteo-exemplo.png>
-Package pdftex.def Info: figuras/fig-fundteo-exemplo.png  used on input line 10
+Package pdftex.def Info: figuras/fig-fundteo-exemplo.png  used on input line 15
 6.
 (pdftex.def)             Requested size: 113.75pt x 116.2745pt.
 Package epstopdf Info: Source file: <figuras/fig-fundteo-exemplosideways.eps>
@@ -1590,51 +1594,51 @@ nverted-to.pdf>
 (epstopdf)                    size: 488676 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/fig-fundteo-exempl
 osideways-eps-converted-to.pdf figuras/fig-fundteo-exemplosideways.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf, id=124, 665.48625pt 
+<figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf, id=189, 665.48625pt 
 x 415.5525pt>
 File: figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/fig-fundteo-exemplosideways-eps-converted-to.p
-df  used on input line 113.
+df  used on input line 163.
 (pdftex.def)             Requested size: 708.0pt x 442.12582pt.
- [8]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 126--126
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 176--176
 [][][][][][][] 
  []
 
 (./codigos/lst-intro-tabelas01.tex)
-Overfull \hbox (6.0pt too wide) in paragraph at lines 128--128
+Overfull \hbox (6.0pt too wide) in paragraph at lines 178--178
 [][][][][][][] 
  []
 
 (./codigos/lst-intro-tabelas02.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \T1/lmr/m/n/12 (+20) pa-rá-grafo es-pe-ci-fica
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \T1/lmr/m/n/12 (+20) lar-gura da co-luna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \T1/lmr/m/n/12 (+20) e que-bra o texto
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 151.
+(Font)              <10.95> on input line 201.
 
-Overfull \hbox (0.85545pt too wide) in paragraph at lines 151--177
+Overfull \hbox (0.85545pt too wide) in paragraph at lines 201--227
  [][] 
  []
 
-) [9 <./figuras/fig-fundteo-exemplo.png>] [10 <./figuras/fig-fundteo-exemplosid
-eways-eps-converted-to.pdf>] [11] [12{/app/texlive/texmf-dist/fonts/enc/dvips/l
-m/lm-rm.enc}{/app/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+) [11 <./figuras/fig-fundteo-exemplo.png>] [12 <./figuras/fig-fundteo-exemplosi
+deways-eps-converted-to.pdf>] [13] [14] [15{/app/texlive/texmf-dist/fonts/enc/d
+vips/lm/lm-rm.enc}{/app/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 (./anteprojeto-MatheusDeOliveiraLima.bbl
 (./anteprojeto-MatheusDeOliveiraLima.brf)
 \tf@brf=\write6
@@ -1642,7 +1646,7 @@ m/lm-rm.enc}{/app/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 
 bibitemlist
-) [13
+) [16
 
 
 
@@ -1650,18 +1654,21 @@ bibitemlist
 enddocument/afterlastpage: lastpage setting LastPage.
 (./anteprojeto-MatheusDeOliveiraLima.aux (./capitulos/ch1-introducao.aux)
 (./capitulos/ch2-referencial.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `anteprojeto-MatheusDeOliveiraLima.brf' has n
 ot changed.
-(rerunfilecheck)             Checksum: 4A6DAC39081DB4824904315D654FD4B9;443.
+(rerunfilecheck)             Checksum: 6E03D501A68CFE1D915FE765F8056062;1106.
  ) 
 Here is how much of TeX's memory you used:
- 36087 strings out of 476041
- 639899 string characters out of 5793174
- 2245388 words of memory out of 6000000
- 55486 multiletter control sequences out of 15000+600000
- 623896 words of font info for 192 fonts, out of 8000000 for 9000
+ 36214 strings out of 476041
+ 642330 string characters out of 5793174
+ 2250388 words of memory out of 6000000
+ 55570 multiletter control sequences out of 15000+600000
+ 625143 words of font info for 204 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 99i,18n,117p,1030b,1597s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,117p,1126b,1597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -1680,11 +1687,11 @@ m/lmss12.pfb></app/texlive/texmf-dist/fonts/type1/public/lm/lmss17.pfb></app/te
 xlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></app/texlive/texmf-dist/fo
 nts/type1/public/lm/lmtt12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
-Output written on anteprojeto-MatheusDeOliveiraLima.pdf (14 pages, 1347832 byte
+Output written on anteprojeto-MatheusDeOliveiraLima.pdf (17 pages, 1364613 byte
 s).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 163 named destinations out of 1000 (max. 500000)
- 66196 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 66268 words of extra memory for PDF output out of 74296 (max. 10000000)
 

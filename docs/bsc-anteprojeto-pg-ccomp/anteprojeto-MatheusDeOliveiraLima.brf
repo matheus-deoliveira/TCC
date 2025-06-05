@@ -1,7 +1,18 @@
-\backcite {albert1999internet}{{6}{2.2}{section.2.2}}
-\backcite {albert1999internet}{{6}{2.2}{section.2.2}}
-\backcite {dijkstra1959note,lattes1947observations}{{6}{2.2}{section.2.2}}
-\backcite {dijkstra1959note,lattes1947observations}{{6}{2.2}{section.2.2}}
-\backcite {souza-mylopoulos:spe13}{{9}{3}{table.caption.12}}
-\backcite {souza-mylopoulos:spe13}{{10}{2}{figure.caption.8}}
-\backcite {souza-mylopoulos:spe13}{{12}{4}{table.caption.13}}
+\backcite {norman2013design}{{5}{2.1}{section.2.1}}
+\backcite {nielsen1994usability}{{5}{2.1}{section.2.1}}
+\backcite {sandhu1996role}{{5}{2.2}{section.2.2}}
+\backcite {pressman2016engenharia}{{5}{2.3}{section.2.3}}
+\backcite {sommerville2011software}{{6}{2.4}{section.2.4}}
+\backcite {requisitos_marvin_core}{{6}{2.4}{section.2.4}}
+\backcite {pressman2016engenharia}{{6}{2.5}{section.2.5}}
+\backcite {projeto_marvin_core}{{6}{2.5}{section.2.5}}
+\backcite {gellersen2002web}{{6}{2.6}{section.2.6}}
+\backcite {albert1999internet, souza-mylopoulos:spe13}{{7}{2.8}{section.2.8}}
+\backcite {albert1999internet, souza-mylopoulos:spe13}{{7}{2.8}{section.2.8}}
+\backcite {albert1999internet}{{9}{2.11}{section.2.11}}
+\backcite {albert1999internet}{{9}{2.11}{section.2.11}}
+\backcite {dijkstra1959note,lattes1947observations}{{9}{2.11}{section.2.11}}
+\backcite {dijkstra1959note,lattes1947observations}{{9}{2.11}{section.2.11}}
+\backcite {souza-mylopoulos:spe13}{{12}{2}{figure.caption.8}}
+\backcite {souza-mylopoulos:spe13}{{14}{3}{table.caption.12}}
+\backcite {souza-mylopoulos:spe13}{{15}{4}{table.caption.13}}
