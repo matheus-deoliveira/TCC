@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  6 JUN 2025 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  9 JUL 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1581,11 +1581,6 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
  (./capitulos/ch2-referencial.tex
 
-LaTeX Warning: Citation `norman2013design' on page 5 undefined on input line 14
-.
-
-
-
 [5
 
 
@@ -1640,7 +1635,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 149--149
 (./codigos/lst-intro-figuras.tex)
 
 [10]
-<figuras/fig-fundteo-exemplo.png, id=173, 990.70125pt x 1012.78375pt>
+<figuras/fig-fundteo-exemplo.png, id=176, 990.70125pt x 1012.78375pt>
 File: figuras/fig-fundteo-exemplo.png Graphic file (type png)
 <use figuras/fig-fundteo-exemplo.png>
 Package pdftex.def Info: figuras/fig-fundteo-exemplo.png  used on input line 16
@@ -1657,7 +1652,7 @@ nverted-to.pdf>
 osideways-eps-converted-to.pdf figuras/fig-fundteo-exemplosideways.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf, id=175, 665.48625pt 
+<figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf, id=178, 665.48625pt 
 x 415.5525pt>
 File: figuras/fig-fundteo-exemplosideways-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1730,19 +1725,15 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `anteprojeto-MatheusDeOliveiraLima.brf' has n
 ot changed.
 (rerunfilecheck)             Checksum: 6E03D501A68CFE1D915FE765F8056062;1106.
  ) 
 Here is how much of TeX's memory you used:
- 36658 strings out of 473330
- 652771 string characters out of 5723877
- 1648696 words of memory out of 5000000
- 58708 multiletter control sequences out of 15000+600000
+ 36661 strings out of 473330
+ 652834 string characters out of 5723877
+ 1648833 words of memory out of 5000000
+ 58710 multiletter control sequences out of 15000+600000
  671119 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,117p,1126b,1599s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1764,11 +1755,11 @@ xlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-d
 ist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
 blic/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.p
 fb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on anteprojeto-MatheusDeOliveiraLima.pdf (17 pages, 1370530 byte
+Output written on anteprojeto-MatheusDeOliveiraLima.pdf (17 pages, 1370738 byte
 s).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 182 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 183 named destinations out of 1000 (max. 500000)
  66268 words of extra memory for PDF output out of 74296 (max. 10000000)
 

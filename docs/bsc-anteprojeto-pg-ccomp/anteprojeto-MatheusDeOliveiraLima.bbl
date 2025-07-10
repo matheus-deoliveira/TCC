@@ -39,6 +39,11 @@ Disponível na pasta de documentação do projeto.}
 {NIELSEN, J. \emph{Usability Engineering}. San Francisco: Morgan Kaufmann,
   1994.}
 
+\bibitem[Norman 2013]{norman2013design}
+\abntrefinfo{Norman}{NORMAN}{2013}
+{NORMAN, D.~A. \emph{The Design of Everyday Things}. Revised and expanded
+  edition. New York: Basic Books, 2013.}
+
 \bibitem[Pressman e Maxim 2016]{pressman2016engenharia}
 \abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2016}
 {PRESSMAN, R.~S.; MAXIM, B.~R. \emph{Engenharia de Software: uma abordagem
