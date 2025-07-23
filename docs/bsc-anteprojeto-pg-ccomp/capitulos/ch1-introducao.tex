@@ -21,11 +21,11 @@ Este trabalho tem como foco melhorar a interface do Sistema Marvin que foi criad
 
 %A \textbf{Motivação} apresenta as circunstancias que interferiram na escolha do tema. A \textbf{Justificativa} apresenta o porquê da escolha do tema, o problema a ser resolvido e a relevância do trabalho, referindo-se a estudos anteriores sobre o tema, ressaltando suas eventuais limitações e destacando a necessidade de se continuar pesquisando o assunto.
 
-A motivação para este trabalho surge da necessidade de atender demandas específicas de departamentos e programas de pós-graduação...
+A escolha deste tema foi motivada pela identificação de uma oportunidade de aplicar conhecimentos sobre desenvolvimento web em um contexto real e relevante para a universidade. O desenvolvimento de interfaces personalizadas representa um desafio técnico interessante que permite explorar conceitos de engenharia de software, design de interfaces e experiência do usuário. Além disso, a possibilidade de contribuir para o aprimoramento de uma ferramenta com potencial de uso efetivo dentro da universidade adiciona um valor ao projeto, permitindo que os conhecimentos adquiridos durante a graduação sejam aplicados gerando um impacto positivo na comunidade acadêmica.
 
-A justificativa para esse trabalho está na necessidade de melhorar a experiência dos usuários do Sistema Marvin. Atualmente, ele funciona com páginas genéricas baseadas em operação CRUD, sem levar em conta o papel específico que cada usuário exerce dentro da instituição. Isso acaba tornando o uso do sistema mais confuso e pouco eficiente, especialmente para quem não tem familiaridade com o funcionamento interno das atividades administrativas e acadêmicas.
+A justificativa para esse trabalho está na necessidade de melhorar a experiência dos usuários do Sistema Marvin. Atualmente, ele funciona com páginas baseadas em operações CRUD (Create, Read, Update, Delete - criar, ler, atualizar e excluir), sem levar em conta o papel específico que cada usuário exerce dentro da instituição. Isso acaba tornando o uso do sistema mais confuso e pouco eficiente, especialmente para quem não tem familiaridade com o funcionamento interno das atividades administrativas e acadêmicas. Além disso, embora o sistema já implemente diferentes níveis de permissão para cada tipo de usuário, as interfaces não refletem adequadamente essas distinções, dificultando a navegação e o acesso às funcionalidades relevantes para cada perfil.
 
-Desenvolver interfaces personalizadas, que se adaptem ao perfil de cada usuário, pode aumentar a usabilidade do sistema e agilizar tarefas rotineiras. Os trabalhos anteriores deram mais ênfase e esforço nas funcionalidades dentro do sistema administrativo, mas também é importante a experiência do usuário e a adaptação do sistema ao contexto real de uso. Por isso, é relevante continuar pesquisando e desenvolvendo soluções que não apenas funcionem tecnicamente, mas que também sejam intuitivas e úteis no dia a dia dos usuários.
+Desenvolver interfaces personalizadas, que se adaptem ao perfil de cada usuário, pode aumentar a usabilidade do sistema e agilizar tarefas rotineiras. O trabalho de \cite{requisitos_marvin_core} modelou o sistema pensando tanto no acesso do administrador através das operações CRUD quanto nos acessos específicos de cada perfil de usuário. Porém, foram implementadas apenas as funcionalidades voltadas para o administrador. Por isso, é relevante continuar desenvolvendo soluções que não apenas funcionem tecnicamente, mas que também sejam intuitivas e adequadas ao contexto real de uso de cada perfil dentro da universidade.
 
 %%% Início de seção. %%%
 \section{Objetivos}
@@ -36,7 +36,7 @@ Desenvolver interfaces personalizadas, que se adaptem ao perfil de cada usuário
 %O \textbf{Objetivo Geral} expressa a finalidade do trabalho: para quê? Deve ter coerência direta com o tema do trabalho e ser apresentado em uma frase que inicie com um verbo no infinitivo. O objetivo geral do trabalho está relacionado ao resultado principal do trabalho.
 
 %%% Objetivo Geral %%%
-O \textbf{objetivo geral} é desenvolver interfaces personalizadas no sistema Marvin, adaptando as páginas de acordo com o papel (Role) de cada usuário, com o objetivo de tornar a navegação mais intuitiva e funcional para diferentes perfis dentro da universidade.
+O \textbf{objetivo geral} é desenvolver interfaces personalizadas no módulo administrativo do sistema Marvin, adaptando as páginas de acordo com o papel (Role) de cada usuário, com o objetivo de tornar a navegação mais intuitiva e funcional, bem como dar acesso a esses perfis às funcionalidades planejadas no trabalho do \cite{requisitos_marvin_core}, mas não implementadas.
 
 %Os \textbf{Objetivos Específicos} apresentam os detalhes e/ou desdobramentos do objetivo geral que levam a resultados intermediários e relevantes para alcançar o objetivo geral. Sempre será mais de um objetivo específico, todos iniciando com verbo no infinitivo.
 
@@ -51,7 +51,7 @@ O \textbf{objetivo geral} é desenvolver interfaces personalizadas no sistema Ma
 
 O desenvolvimento deste trabalho será feito em etapas, seguindo uma abordagem prática baseada no processo de engenharia de software, com foco em desenvolvimento web. A metodologia utilizada envolve análise dos requisitos, análise dos papéis dos usuários, planejamento das interfaces, implementação e validação.
 
-Inicialmente, será feita uma análise do sistema Marvin, com foco no subsistema administrativo, para entender como os diferentes tipos de usuários (como administradores, gestores de departamento, coordenadores de curso e programas de pós-graduação) interagem com as funcionalidades existentes. A partir disso, serão identificadas as principais funções associadas a cada papel e os pontos em que a interface atual não atende bem às necessidades específicas desses perfis.
+Inicialmente, será feita um estudo da documentação de requisitos do \cite{requisitos_marvin_core}, com foco no subsistema administrativo, para entender como os diferentes tipos de usuários (como administradores, gestores de departamento, coordenadores de curso e programas de pós-graduação) interagem com as funcionalidades existentes. A partir disso, serão identificadas as principais funções associadas a cada papel e os pontos em que a interface atual não atende bem às necessidades específicas desses perfis.
 
 Com base nessa análise, serão projetadas novas interfaces personalizadas, utilizando ferramentas modernas de desenvolvimento frontend. A implementação será feita por meio de tecnologias web já utilizadas no projeto Marvin, respeitando a estrutura já existente e buscando garantir compatibilidade com o sistema atual.
 
@@ -61,23 +61,23 @@ Por fim, será realizada uma etapa de testes com usuários reais ou simulações
 \section{Cronograma}
 \label{sec-intro-crono}
 
-O cronograma de execução apresenta a distribuição no tempo das atividades que serão realizadas ao longo do desenvolvimento do trabalho. As atividades foram definidas com base nos objetivos específicos apresentados na Subseção~\ref{sec-intro-obj}, garantindo que cada uma delas contribua diretamente para a obtenção do objetivo geral.
+O cronograma de execução apresenta a distribuição no tempo das atividades que serão realizadas ao longo do desenvolvimento do trabalho. As atividades foram definidas para garantir que cada uma delas contribua diretamente para a obtenção do objetivo geral.
 
 \begin{itemize}
-	\item \textbf{Atividade 1: Levantamento de requisitos e análise de papéis do sistema} \\
-	Analisar o sistema Marvin, especialmente o subsistema administrativo, e identificar os diferentes tipos de usuários e suas respectivas funções.
+	\item \textbf{Atividade 1: Estudo de requisitos} \\
+	Estudar os requisitos do \cite{requisitos_marvin_core}, especialmente o subsistema administrativo, e identificar os diferentes tipos de usuários e suas respectivas funções.
 	
 	\item \textbf{Atividade 2: Avaliação da usabilidade atual} \\
 	Estudar as interfaces existentes no sistema e levantar as principais dificuldades enfrentadas por cada perfil de usuário.
 	
 	\item \textbf{Atividade 3: Projeto das interfaces personalizadas} \\
-	Definir a estrutura, layout e fluxo de navegação das novas interfaces específicas para cada Role.
+	Definir a estrutura, layout e fluxo de navegação das novas interfaces específicas para cada papel.
 	
 	\item \textbf{Atividade 4: Implementação das interfaces - Parte 1} \\
-	Desenvolver e integrar as interfaces personalizadas de 1 ou 2 papéis principais de usuário, como Administrador e Gestor de Curso.
+	Desenvolver e integrar as metade das interfaces personalizadas.
 	
 	\item \textbf{Atividade 5: Implementação das interfaces - Parte 2} \\
-	Finalizar o desenvolvimento das interfaces dos demais papéis e garantir a integração com o sistema existente.
+	Finalizar o restante das interfaces dos demais papéis.
 	
 	\item \textbf{Atividade 6: Testes, validação e documentação} \\
 	Realizar testes com usuários (ou simulações), ajustar problemas encontrados e documentar todo o processo de desenvolvimento.
